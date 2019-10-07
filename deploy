@@ -1,5 +1,5 @@
 #!/bin/sh
- sshpass -p password ssh -T khaleque@104.248.0.80 <<EOF
+ sshpass -p password ssh -T khaleque@104.248.0.80 '...'
  cd ~/nodejslatest-app
  git pull
  npm install --production

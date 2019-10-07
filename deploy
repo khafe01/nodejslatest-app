@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh khaleque@104.248.0.80 <<EOF
+ cd ~/nodejslatest-app
+ git pull
+ npm install --production
+ pm2 restart all
+ exit
+EOF

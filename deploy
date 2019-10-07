@@ -1,6 +1,6 @@
 #!/bin/sh
  sshpass -p password ssh -T khaleque@104.248.0.80 '...'
- cd ~/nodejslatest-app
+ cd /var/lib/jenkins/nodejslatest-app
  git pull origin master
  npm install --production
  pm2 restart all

@@ -1,5 +1,5 @@
 #!/bin/sh
- ssh -tt jenkins@104.248.0.80 <<EOF
+ ssh -tt jenkins@104.248.0.80 <<'EOF'
  cd ~/nodejslatest-app
  git pull origin master
  npm install --production

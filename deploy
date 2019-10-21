@@ -1,5 +1,5 @@
 #!/bin/sh
- ssh jenkins@104.248.0.80 '...'
+ ssh khaleque@104.248.0.80 '...'
  . ~/.bashrc
  cd ~/nodejslatest-app
  git pull origin master

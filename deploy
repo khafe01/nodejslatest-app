@@ -1,6 +1,5 @@
 #!/bin/sh
- ssh khaleque@104.248.0.80 '...'
- . ~/.bashrc
+ ssh jenkins@104.248.0.80 '...'
  cd ~/nodejslatest-app
  git pull origin master
  npm install --production

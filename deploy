@@ -3,6 +3,6 @@
  cd ~/nodejslatest-app
  git pull origin master
  npm install --production
- ./usr/local/bin/pm2 restart all
+ pm2 restart all
  exit
 EOF

@@ -1,6 +1,6 @@
 #!/bin/sh
- ssh -tt jenkins@104.248.0.80 <<'EOF'
- cd ~/nodejslatest-app
+ ssh -tt root@localhost <<'EOF'
+ cd ~/Desktop/nodejslatest-app
  git pull origin master
  npm install --production
  pm2 restart all

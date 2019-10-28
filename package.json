@@ -14,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khafe01/nodejslatest-app/issues"
+    "url": "https://github.com/khafe01/nodejslatest-app/issues",
+    "start" : "nodemon --exec babel-node index.js"
   },
   "homepage": "https://github.com/khafe01/nodejslatest-app#readme",
   "dependencies": {

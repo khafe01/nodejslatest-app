@@ -1,6 +1,13 @@
-import { createServer } from 'http';
+var express = require("express");
+var app = express();
 
-createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World!');
-}).listen(3000);
+app.get("/", function (req, res) {
+  //  .use(nocache) // Prevents caching of *only* this request
+ res.send("hey CSP world, this is very beginning of implementing CICD piplinew latest and new updates 66");
+
+});
+
+//listen to port 3000 by default
+app.listen(process.env.PORT || 3000);
+ 
+module.exports = app;

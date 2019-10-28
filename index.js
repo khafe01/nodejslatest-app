@@ -1,5 +1,5 @@
 import express from "express";
-//const app = express();
+var app = express();
 
 app.get("/", function (req, res) {
   //  .use(nocache) // Prevents caching of *only* this request

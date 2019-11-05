@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   //  .use(nocache) // Prevents caching of *only* this request
- res.send('Hey world, this is very beginning of implementing CICD pipeline - VERSION 8');
+ res.send('Hey world, this is very beginning of implementing CICD pipeline - VERSION 1');
 
 });
 

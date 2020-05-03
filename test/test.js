@@ -7,6 +7,6 @@ var expect = require('chai').expect;
 describe('GET /', function() {
  it('respond with hello world', function(done) {
  //navigate to root and check the the response is "hello world"
- request(app).get('/').expect('hello csp world new updates 5', done);
+ request(app).get('/').expect('hello csp world new updates 6', done);
  });
 });
